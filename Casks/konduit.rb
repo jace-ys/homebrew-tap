@@ -3,7 +3,7 @@ cask "konduit" do
   name "konduit"
   desc "Helm meets Kustomize, but without the YAML"
   homepage "https://github.com/jace-ys/konduit"
-  version "0.2.1"
+  version "0.2.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,22 +18,22 @@ cask "konduit" do
   on_macos do
     on_intel do
       url "https://github.com/jace-ys/konduit/releases/download/v#{version}/konduit_#{version}_darwin_amd64.tar.gz"
-      sha256 "6c1b030677d6839c5a5a199b60d23a539cdbc7b57d4730d480f09ce70b3a5464"
+      sha256 "6ae97b86c643b6d5010ca25a60f2c2a29242e9661ec8e3664258195cad3ffb2a"
     end
     on_arm do
       url "https://github.com/jace-ys/konduit/releases/download/v#{version}/konduit_#{version}_darwin_arm64.tar.gz"
-      sha256 "94c55d0719378d0a33944d8a828a8af38a50dce607e9aabe8e52d69e91daacad"
+      sha256 "b2a2927f9fdc627a84dce32c1c40f139e951c750853d02f9f6c32ace4c7ca7b4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jace-ys/konduit/releases/download/v#{version}/konduit_#{version}_linux_amd64.tar.gz"
-      sha256 "5716cf0001ffc694d35a44f850341052389342341a8c5d451775fa0976e290d8"
+      sha256 "ecc03c1f8b0ce65e772f95fddbdf6f29c76a0f3e158e1ba4120f21faf9ef4fd9"
     end
     on_arm do
       url "https://github.com/jace-ys/konduit/releases/download/v#{version}/konduit_#{version}_linux_arm64.tar.gz"
-      sha256 "c3a2c5e56f19a08d115925ea5884fdb601f1a1121dbbf6fcbb49c0e902d3cc0e"
+      sha256 "b7c6308ded06e2d4d4e377c24198ae6e8b51cf2a742b092f59979cd71bb7978f"
     end
   end
 
